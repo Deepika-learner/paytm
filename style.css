@@ -1,0 +1,63 @@
+*{
+	margin: 0%;
+}
+.navigation{
+	padding: 0.9%;
+}
+.navigation img{
+	vertical-align: middle;
+}
+.navigation a{
+	text-decoration:none;
+	color: black;
+	margin-left:3%;
+	font-size:15px;
+	font-family: 'Poppins', sans-serif;
+}
+.logo{
+	margin: 0% 8% 0% 4%;
+}
+#signin{
+	margin-left: 14%;
+	border-radius: 25px;
+	background-color: #00baf2;
+	color: white;
+	text-align: center;
+	padding: 0.6%;
+}
+.msg{
+	text-align: center;
+	background-color: #F5F5F5;
+	padding:0.8%;
+}
+.sec2{
+	font-family: "Poppins";
+	justify-content: space-between;
+	display: flex;
+	padding: 8% 0% 5% 10%;
+}
+.India{
+	font-size: 55px;
+	margin-top: 5%;
+}
+.recharge{
+	margin-bottom:3%;
+	font-size: 19px;
+}
+.download{
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	padding:1.5%;
+	width: 48%;
+	text-align: center;
+	border-radius: 25px;
+}
+.download:hover{
+	background-color: white;
+	color: black;
+}
+.icon{
+	margin-left: 1%;
+}
+
