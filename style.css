@@ -139,7 +139,7 @@
 	border-radius:25px;
 	color: white;
 	background-color: #0f4a8a;
-	width: 24%;
+	width: 26%;
 	text-align: center;
 	padding: 2%;
 }
@@ -190,4 +190,77 @@
 .sincere{
 	padding: 8% 0%;
 	font-size: 39px;
+}
+.sec7{
+	display: flex;
+	justify-content: space-between;
+	padding: 4% 15%;
+	font-family: "Poppins";
+}
+.build{
+	font-size: 36px;
+	padding: 4% 0%;
+}
+.sec7para{
+	padding-bottom: 5%;
+	font-size: 19px;
+}
+.sec8{
+	display: flex;
+	justify-content: space-between;
+	padding: 4% 14% 4% 13%;
+	font-family: "Poppins";
+	background-color: white;
+}
+.insurance{
+	font-size: 38px;
+	padding: 4% 0%;
+}
+.sec8para{
+	font-size: 19px;
+	padding-bottom: 4%;
+}
+.sec9{
+	background-color:rgba(239, 239, 239, 0.6);
+	display: flex;
+	justify-content: space-between;
+	padding: 6% 14% 0% 14%;
+	font-family: "Poppins";
+}
+.loan{
+	padding: 5% 0%;
+	font-size: 34px;
+}
+.sec9para{
+	padding-bottom: 4%;
+	font-size: 16px;
+}
+.sec10{
+	background-color: white;
+	padding: 5% 13% 0% 13%;
+	font-family: "Poppins";
+}
+.sec10div1{
+	background-color:rgba(239, 239, 239, 0.6);
+	display: flex;
+	justify-content: space-between;
+	padding: 7% 0% 7% 8%;
+	border-radius: 7px;
+}
+.mainheading{
+	padding: 5% 13% 3% 0%;
+	font-size: 45px; 
+}
+.head1{
+	padding: 30% 0% 4% 0%;
+	font-size: 33px;
+}
+.sec10para1{
+	padding-bottom: 5%;
+}
+
+@media (max-width: 1366px){
+	.navigation a{
+		font-size: 14px;
+	}
 }
