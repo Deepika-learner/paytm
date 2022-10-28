@@ -76,10 +76,12 @@
 .sec3div1 a{
 	text-decoration: none;
 	color: white;
-	font-size: 17px;
+	font-size: 15px;
 }
 .sec3div1 a:hover{
-	background-color:#f5f7fa;
+	background-color:#00adf2;
+	padding: 1% 2% 1% 1%;
+	border-radius: 5px;
 }
 .sec4{
 	background-color: #0f4a8a;
@@ -88,10 +90,20 @@
 	font-family: "Poppins";
 	font-size: 25px;
 }
+.sec4div1 a:hover{
+	background-color:#02386e;
+	padding: 1%;
+	border-radius: 5px;
+}
 .sec5{
 	background-color:rgba(239, 239, 239, 0.6);
 	padding: 5% 13%;
 	font-family: "Poppins";
+}
+.wallet{
+	margin-top: 4% ;
+	padding-left: 2%;
+	font-weight: bold;
 }
 .heading{
 	margin-bottom: 3%;
@@ -184,11 +196,11 @@
 	font-family: "Poppins";
 }
 .financial{
-	font-size: 47px;
+	font-size: 45px;
 	padding-bottom:10%;
 }
 .sincere{
-	padding: 8% 0%;
+	padding: 8% 0% 6% 0%;
 	font-size: 39px;
 }
 .sec7{
@@ -196,6 +208,8 @@
 	justify-content: space-between;
 	padding: 4% 15%;
 	font-family: "Poppins";
+	background: url("image/bgm.png");
+	background-size: 100%;
 }
 .build{
 	font-size: 36px;
@@ -252,15 +266,163 @@
 	font-size: 45px; 
 }
 .head1{
-	padding: 30% 0% 4% 0%;
+	padding: 19% 0% 4% 0%;
 	font-size: 33px;
 }
 .sec10para1{
 	padding-bottom: 5%;
 }
+.sec10div2{
+	background-color:rgba(239, 239, 239, 0.6);
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 0% 6% 8%;
+	border-radius: 7px;
+	margin-top:4% ;
+}
+.sec11{
+	margin: 10% 0% 7% 13%;
+	font-family: "Poppins";
+}
+.sec11div{
+	display: flex;
+	justify-content: space-between;
+}
+.head{
+	padding: 4% 0% 8% 0%;
+	font-size: 25px;
+}
+.help{
+	font-size: 37px;
+	margin-bottom: 6%;
+}
+.more{
+	padding-top:4% ;
+}
+.matter{
+	font-size: 19px;
+}
 
 @media (max-width: 1366px){
 	.navigation a{
 		font-size: 14px;
+	}
+}
+
+@media (max-width: 390px){
+	.navigation a{
+		font-size: 4px;
+	}
+	#signin{
+		margin-left: 10%;
+	}
+	.msg{
+		font-size: 8px;
+	}
+	.India{
+		font-size: 14px;
+	}
+	.recharge{
+		font-size: 8px;
+	}
+	.download{
+		font-size: 5px;
+	}
+	.sec3 h1{
+		font-size: 12px;
+	}
+	.sec3div1{
+		flex-direction: column;
+		align-items: center;
+	}
+	#last{
+		margin-left: 20%;
+	}
+	#end{
+		margin-right:22%;
+	}
+	.sec4 h1{
+		font-size: 10px;
+	}
+	.heading{
+		font-size: 14px;
+	}
+	.wallet{
+		font-size: 10px;
+	}
+	.fastest{
+		font-size: 11px;
+	}
+	.load{
+		font-size: 4px;
+	}
+	.bank{
+		font-size: 11px;
+	}
+	.learn{
+		font-size: 5px;
+	}
+	.unlimited{
+		font-size: 8px;
+	}
+	.credit{
+		font-size: 8px;
+	}
+	.div4para{
+		font-size: 4px;
+	}
+	.financial{
+		font-size: 12px;
+	}
+	.sincere{
+		font-size: 11px;
+	}
+	.sec6 p{
+		font-size: 5px;
+	}
+	.build{
+		font-size: 10px;
+	}
+	.sec7para{
+		font-size: 5px;
+	}
+	.sec7 div{
+		padding-left: 12%;
+	}
+	.insurance{
+		font-size: 13px;
+	}
+	.sec8para{
+		font-size: 5px;
+	}
+	.loan{
+		font-size: 13px;
+	}
+	.sec9para{
+		font-size: 5px;
+	}
+	.sec9 div{
+		padding-left: 12%;
+	}
+	.mainheading{
+		font-size: 14px;
+	}
+	.head1{
+		font-size: 13px;
+	}
+	.sec10para1{
+		font-size: 5px;
+	}
+	.help{
+		font-size: 15px;
+	}
+	.head{
+		font-size: 10px;
+	}
+	.matter{
+		font-size: 6px;
+	}
+	.more{
+		font-size: 4px;
 	}
 }
