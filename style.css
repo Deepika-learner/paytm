@@ -311,7 +311,7 @@
 
 @media (max-width: 390px){
 	.navigation a{
-		font-size: 2px;
+		font-size: 4px;
 	}
 	#signin{
 		margin-left:3%;
